@@ -1,0 +1,107 @@
+.section {
+	font-size: 40px;
+	margin: 50px 0 200px 0;
+
+}
+
+.top-img {
+	text-align: center;
+	margin-top: 50px;
+    
+}
+
+.img-responsive {
+	margin: 15px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #294860;
+	margin: 10px;
+	font-size: 72px;
+}
+body {
+	font-family: Helvetica;
+}
+
+
+.lesson {
+	background-color: #294860;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	font-size: 28px;
+}
+
+h1 {
+	margin: 40px 0 20px 0;
+}
+
+h2 {
+	margin: 10px;
+	font-size: 32px;
+}
+
+.concept {
+	background-color: #DFEAF1;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+
+
+.concept-description {
+	font-weight: lighter;
+	margin: 14px;
+	
+}
+
+.concept-title {
+	font-size: 28px;
+	margin: 8px;
+	text-align: center;
+	color: #294860;
+}
+
+p, ul, ol {
+	font-weight: lighter;
+}
+
+
+
+span.code {
+    font-family: Courier;
+    background-color: #BBBBBB;
+    padding: 2px 4px;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .responsive {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section {
+        font-size: 20px;
+        margin: 0 auto;
+    }
+}
+
+
+.guestbook  {
+  font-family: Verdana, Helvetica, sans-serif;
+  background-color: #DDDDDD;
+  margin: 10px;
+  border-radius: 4px;
+  padding: 14px;
+}
+
+.error {
+	color: red;
+} 
