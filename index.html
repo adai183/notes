@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--improve responsiveness-->
 <html>
 <head>
   <title>My Notes</title>
@@ -9,7 +9,7 @@
 </head>
 <body>
 {% autoescape true %}
-    
+
   <div class="responsive">
     <div class="section">
 
@@ -18,14 +18,14 @@
           Course 1/2: Important Concepts - Telling Computers What To Do
         </a>
       </div><br>
-      
+
       <div class="table-of-contents-entry">
         <a class="item-title" href="#course-3">
           Course 3: The Power of Abstraction
         </a>
       </div><br>
-      
-      
+
+
       <div class="table-of-contents-entry">
         <a class="item-title" href="#course-4">
           Course 4: The Full Stack
@@ -38,8 +38,8 @@
           Course 5: What I learned in Course 5
         </a>
       </div><br>
-  
-  </div>  
+
+  </div>
 
   <h1 id="course-1">Important Concepts - Telling Computers What To Do</h1>
 
@@ -54,10 +54,10 @@
         <ul>
           <li>How to use "variables" effectively.</li>
           <li>How to write "functions" to do repetitive work.</li>
-        </ul>   
+        </ul>
       </div>
     </div>
-      
+
 
     <div class="concept">
       <div class="concept-title">
@@ -65,14 +65,14 @@
       </div>
       <div class="concept-discription">
         <br>
-       
+
       Computer science is about solving problems in a systematic step by step approach:
       <ol>
         <li>Break down the problem in pieces.</li>
         <li>Precisely and mechanically describe a sequence of steps.</li>
         <li> These steps can be executed by a computer</li>
       </ol>
-       
+
       </div>
     </div>
 
@@ -99,7 +99,7 @@
             This <a href="https://www.udacity.com/course/viewer#!/c-ud552-nd/l-3527838955/e-48704311/m-48736065">video</a> does a good job of explaining the Python grammar for "expressions".
         </p>
         </div>
-      </div>  
+      </div>
   </div>
 
 
@@ -108,7 +108,7 @@
   <div class="lesson">
     <h2>Lesson 2: Variables and Strings</h2>
     <div class="concept">
-      <div class="concept-title"> 
+      <div class="concept-title">
               What is a variable in Python
       </div>
       <div class="concept-description">
@@ -265,7 +265,7 @@
       </div>
       <div class="concept-description">
         <p>
-          
+
           When a determined test expression is true the following indented block of code is executed.
           We can determine an <b>else</b> expression in case the test expression is false. If not the interpreter automatically jumps to the next statement.
 
@@ -296,7 +296,7 @@
         Structured Data
       </div>
       <div class="concept-description">
-        <p>         
+        <p>
           We can summon data in list elements. Lists can contain anything we want (e.g. strings, numbers, lists). We can reference to that data as a group or address only part of it by indexing.
         </p>
       </div>
@@ -336,7 +336,7 @@
   <div class="lesson">
     <h2>Lesson 6: How to Solve Problems</h2>
     <div class="concept">
-      <div class="concept-title"> 
+      <div class="concept-title">
               Workflow
       </div>
       <div class="concept-description">
@@ -368,8 +368,8 @@
                   </li>
                   <li>
                     Human solution is not always the simplest one. Because we try to find short cuts. Computer solve problems in a simpler mechanical way.
-                  </li>                 
-                </ul>               
+                  </li>
+                </ul>
               </li>
               <li>
                 Define a simple  mechanical solution.
@@ -380,10 +380,10 @@
             </ol>
       </div>
     </div>
-  </div>  
+  </div>
 
 
-  
+
 
   <h1 id="course-3">The Power of Abstraction</h1>
 
@@ -394,13 +394,13 @@
       <div class="concept-description">
         In simple terms, servers store information and are responsible for responding reliably to <b>HTTP requests</b>, be those <b>get</b> or <b>post</b> requests. Servers generally respond in two manners, static and dynamic responses. Static responses are, as the name implies, static files like images or prerendered HTML files that are simply returned to the browser. Dynamic responses however, build a response in real time based on the request through the use of web applications.
       </div>
-    </div>    
+    </div>
   </div>
 
 
   <div class="lesson">
     <h2 >OOP</h2>
-    <div class="concept">     
+    <div class="concept">
       <div class="concept-description">
         <ul>
           <li>
@@ -410,14 +410,14 @@
             <b>Class Variables:</b>  A class variable is a variable defined in a class of which a single copy exists, regardless of how many instances of the class exist. A class variable is not an instance variable. It is a special type of class attribute (or class property, field, or data member).
           </li>
           <li>
-            <b>Object:</b> An object is a specific realization or <b>instance</b> of a class. When we create that instance the class 
-            <b>constructor</b> (e.g __init__ method) gets called.There is a convention to use <span class="code">self</span> with constructor methods. You can think of it as the “instance of question”. 
+            <b>Object:</b> An object is a specific realization or <b>instance</b> of a class. When we create that instance the class
+            <b>constructor</b> (e.g __init__ method) gets called.There is a convention to use <span class="code">self</span> with constructor methods. You can think of it as the “instance of question”.
             All variable associated with a specific instance are called <b>instance variables</b>. For associated functions we use the term method.
             They can be accessed inside the class using <span class="code">self</span> and outside with their class name.
             In this screen shot we see a good example of that terminology in practice.
-              
+
                 <img src="images/OOP_screenshot.png" class="img-responsive" alt="OOP_screenshot">
-              
+
           </li>
           <li>
             <b>Module:</b>
@@ -432,11 +432,11 @@
             Inheritance is the process by which objects can acquire the properties of objects of other class. Inheritance provides reusability, like, adding additional features to an existing class without modifying it. This is achieved by deriving a new class from the existing one. The new class will have combined features of both the classes.
           </li>
           <li>
-            <b>Method overriding:</b> Method overriding is a language feature that allows a subclass or child class to provide a 
+            <b>Method overriding:</b> Method overriding is a language feature that allows a subclass or child class to provide a
           </li>
-        </ul>           
+        </ul>
       </div>
-    </div>    
+    </div>
   </div>
 
 
@@ -447,7 +447,7 @@
         We already heard about CSS classes. We can see HTML as an object being styled by CSS classes. This has many advantages like avoiding repetition, better code readability, CSS classes are reusable, easier modifiability.
       </div>
     </div>
-  </div>  
+  </div>
 
 
 
@@ -456,26 +456,26 @@
     </div>
 
     <h1>The Full Stack</h1>
- 
+
     <div class="lesson">
       <h2>Servers</h2>
       <div class="concept">
         <div class="concept-description">
           In simple terms, servers store information and are responsible for responding reliably to <b>HTTP requests</b>, be those <b>get</b> or <b>post</b> requests. Servers generally respond in two manners, static and dynamic responses. Static responses are, as the name implies, static files like images or prerendered HTML files that are simply returned to the browser. Dynamic responses however, build a response in real time based on the request through the use of web applications.
         </div>
-      </div>    
+      </div>
     </div>
 
     <div class="lesson">
       <h2>The Importance of Validating Input</h2>
-      <div class="concept">     
+      <div class="concept">
         <div class="concept-description">
           Input validation prevents our site from being hacked.
           Servers, if not properly protected from spammers and hackers, can receive malicious data input from unverified Post requests, and validation allows the server to deny harmful data if certain conditions are not met. Validation is import for all websites that employ some sort of dynamic content.<br>
           To prevent hackers from “breaking” forms and input boxes coders use <b>HTML escaping</b>. It replaces certain characters with other characters to prohibit malicious users from entering server-altering code.<br>
-          Another reason for the importance of validation is user expirience. It makes it easier for the user to enter meaningful data. 
+          Another reason for the importance of validation is user expirience. It makes it easier for the user to enter meaningful data.
         </div>
-      </div>    
+      </div>
     </div>
 
     <div class="lesson">
@@ -492,9 +492,9 @@
 
 
     <h1 id="course-5">What I learned in Course 5</h1>
- 
+
     <div class="lesson">
-      <h2>Intro to HTML and CSS</h2>     
+      <h2>Intro to HTML and CSS</h2>
       <div class="concept">
         <div class="concept-title">
           Frameworks
@@ -504,7 +504,7 @@
           Frameworks like Bootstrap contain a grid, which is extremely useful for positioning elements on a web site making use of negative space.
           Other useful features are an image-responsive class, which allows images to adapt to different screen sizes.
           You can also include basic JavaScript features using so called Modals.<br>
-          For more customized use we might consider the possibility of coding our own framework. 
+          For more customized use we might consider the possibility of coding our own framework.
         </div>
       </div>
       <div class="concept">
@@ -512,37 +512,37 @@
           Flexbox
         </div>
         <div class="concept-description">
-          CSS Flex Box Layout is the latest layout model coming to CSS3. It allows elements within a container to be arranged. It is one of many useful tools for Responsive Design. 
+          CSS Flex Box Layout is the latest layout model coming to CSS3. It allows elements within a container to be arranged. It is one of many useful tools for Responsive Design.
         </div>
       </div>
     </div>
 
     <div class="lesson">
       <h2>Responsive Web Design fundamentals</h2>
-      <div class="concept">  
+      <div class="concept">
         <div class="concept-title">
           4 Common responsive design patterns:
-        </div>   
+        </div>
         <div class="concept-description">
-          <b>Column Drop</b> is probably the easiest. At its narrowest viewport elements are simply stacked one over another in a single column that occupies the entire viewport. With increasing viewport size the elements start being positioned next to each other in the same row creating new columns. Once the columns are all positioned in one horizontal row and hit the max-width, margin is added to both sides. 
+          <b>Column Drop</b> is probably the easiest. At its narrowest viewport elements are simply stacked one over another in a single column that occupies the entire viewport. With increasing viewport size the elements start being positioned next to each other in the same row creating new columns. Once the columns are all positioned in one horizontal row and hit the max-width, margin is added to both sides.
           We code this using a flex-container and flex-wrap. Then we set up media-queries.
           <br>
           <br>
           <b>Mostly Fluid</b> is very similar to Column Drop but more grid-like with more columns fitting in different ways.
           <br>
           <br>
-          <b>Layout Shifter</b> is probably the most responsive pattern. We use multiple containers and the order-attribute for more complex positioning. 
+          <b>Layout Shifter</b> is probably the most responsive pattern. We use multiple containers and the order-attribute for more complex positioning.
           <br>
           <br>
           <b>Off Canvas:</b> Instead of stacking elements vertically it places not frequently used elements off screen. We use this .e.g. to hide the navigation menu on smaller screens. Typically the user has to touch the hamburger-icon to open the hidden content.
         </div>
-      </div>    
+      </div>
     </div>
 
     <div class="lesson">
       <h2>Additional Learning</h2>
       <div class="concept">
-        <div class="concept-title">Responsive Images</div>  
+        <div class="concept-title">Responsive Images</div>
         <div class="concept-description">
           <p>
           For my additional learning I took the course on responsive images by Sam Dutton. It was truly awesome to use more professional tools like the JavaScript task runner Grunt. It was especially fun to control applications from the terminal and see how automation tools can change your entire workflow.
@@ -555,7 +555,7 @@
         <br>
          <div class="concept-title">Articles from <a href="http://wwww.alistapart.com">alistapart.com</a></div>
         <div class="concept-description">
-  
+
             I wanted to get deeper into the design aspect of codingand looked for articles about responsive design on <a href="http://wwww.alistapart.com">alistapart.com</a>.I first found an <a href="http://alistapart.com/article/responsive-web-design">article by Ethan Marcotte from 2010</a> where he predicts the great future importance of  Responsive Design. It was very interesting to hear him talk about Fluid grids, flexible images, and media queries as radical new technical ideas for responsive web design. He makes an interesting comparison between web design and architecture. He emphasizes the unpredictable character of the web that makes it difficult to find long lasting solutions, whereas in architecture traditionally creative decisions are made with a more static approach creating spaces that may last for centuries. Marcotte suggests using fluid grids as a more future proof solution. His approach is layout agnostic and adapts to any browser’s window width. It is a beautiful solution. Later it is suggested in the comments to add css transitions into the mix. I am keen on trying out all that stuff!!!
             <br>
             After that I read a much more recent <a href="http://alistapart.com/article/thinking-responsively-a-framework-for-future-learning">article on the same topic by Paul Robert Lloyd from last August</a>.Five years later responsiveness is an established design principle. A new way of thinking to guarantee the best user experience.
@@ -568,11 +568,11 @@
             </i>
             <br>
             <br>
-            Lloyd underlines the importance of a framework in order to assure quality and appropriateness of web development. He doesn´t  refer to a framework in the sense of software libraries or other abstractions concerned with executed code. He opts for a framework in form of design principles as defined by <a href="http://www.google.com/about/company/philosophy/">Google</a> or <a href="https://www.gov.uk/design-principles">GOV.UK</a>. These guidelines are built on user empathy to assure a long term success of universal designs for erveryone regardless of age, ability, or status.<br> Another important point is to keep code simple and “share the toolbox” to favour a more collaborative interdisciplinary approach. 
+            Lloyd underlines the importance of a framework in order to assure quality and appropriateness of web development. He doesn´t  refer to a framework in the sense of software libraries or other abstractions concerned with executed code. He opts for a framework in form of design principles as defined by <a href="http://www.google.com/about/company/philosophy/">Google</a> or <a href="https://www.gov.uk/design-principles">GOV.UK</a>. These guidelines are built on user empathy to assure a long term success of universal designs for erveryone regardless of age, ability, or status.<br> Another important point is to keep code simple and “share the toolbox” to favour a more collaborative interdisciplinary approach.
         </div>
       </div>
     </div>
-  
+
 
 
 
@@ -597,7 +597,7 @@
         <span class="error"><h3>{{ blank_entry }}</h3></span>
         <div><input type="submit" value="Sign Guestbook"></div>
       </form>
-    </div>  
+    </div>
 
     <a href="{{ url|safe }}">{{ url_linktext }}</a>
   </div>
